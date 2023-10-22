@@ -1,0 +1,15 @@
+Write a function solution that, given an array A of N integers, returns the sum of the first three positive integers in that array (counting from the left). If there are fewer than three positive numbers then sum all of the positive numbers that are present.
+
+Examples:
+
+1. Given A = [4, -2, 0, 5, -2, 1, 6], the function should return 10 (the first three positive integers are 4, 5, 1).
+
+2. Given A = [3, -2, 0], the function should return 3. There is only one positive number (3), so only that number is the component of the result.
+
+3. Given A = [-9, -4, -2, -6], the function should return 0. None of the numbers is positive.
+
+Assume that:
+
+N is an integer within the range [1..1,000];
+each element of array A is an integer within the range [-1,000,000..1,000,000].
+In your solution, focus on correctness. The performance of your solution will not be the focus of the assessment.
